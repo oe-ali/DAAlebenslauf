@@ -1,19 +1,31 @@
-body {
-    background: linear-gradient(90deg, rgb(0, 0, 0), rgb(5, 4, 73));
+html {
+    background: linear-gradient(90deg, rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0), rgb(5, 4, 73));
 }
 
-
 header {
-    display: flex;
-    justify-content: start;
     color: azure;
-    background-image: url(https://th.bing.com/th/id/R.a11d719e2a045cf1fc41db5bc8f99b0f?rik=vbD5lVKf7gFzdQ&pid=ImgRaw&r=0), linear-gradient(90deg, rgb(0, 0, 0), rgb(5, 4, 73));
+    text-align: left;
+    background-image: url(https://th.bing.com/th/id/R.a11d719e2a045cf1fc41db5bc8f99b0f?rik=vbD5lVKf7gFzdQ&pid=ImgRaw&r=0), linear-gradient(90deg, rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0), rgb(5, 4, 73));                    
     background-repeat: no-repeat;
     padding: 50px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 h1 {
-    margin-left: 0;
+    margin-bottom: 50px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.menu a:hover {
+    color: rgb(90, 134, 255);
+}
+
+h1, .menu {
+    display: block;
 }
 
 
@@ -67,14 +79,24 @@ h1 {
 
 .donate {
     color:azure;
+    background-color: linear-gradient(90deg, rgb(5, 4, 73), rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0));
+    font-family: 'Courier New', Courier, monospace;
 }
+
+#alipay img {
+    margin-left: 5vw;
+    max-width: 15vw;
+}
+
 
 .readable {
     color:azure;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-a:hover {
-    color: azure;
+#person:hover {
+    text-decoration: none;
+    color: inherit;
 }
 
 h4 {

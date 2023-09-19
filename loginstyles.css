@@ -1,3 +1,95 @@
-.Überschrift {
-    text-align: center;
+html {
+    background: linear-gradient(90deg, rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0), rgb(5, 4, 73));
 }
+
+
+header {
+    color: azure;
+    text-align: left;
+    background-image: url(https://th.bing.com/th/id/R.a11d719e2a045cf1fc41db5bc8f99b0f?rik=vbD5lVKf7gFzdQ&pid=ImgRaw&r=0), linear-gradient(90deg, rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0), rgb(5, 4, 73));                    
+    background-repeat: no-repeat;
+    padding: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+    
+    h1 {
+        margin-bottom: 50px;
+    }
+
+    h1, h3 {
+        display:block;   
+    }
+
+
+main {
+    height: 50vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+        h2{
+            color: azure;
+        }
+
+        
+        form.login-form {
+            display: flex;
+            justify-items: space-between;
+            background-image: url(https://images.pexels.com/photos/158729/rock-pattern-background-texture-158729.jpeg?cs=srgb&dl=pexels-pixabay-158729.jpg&fm=jpg) ;
+            padding: 40px;
+            border-radius: 20px;
+        }
+
+            #login-field {
+                display:flex;
+                justify-content: space-between;
+                align-items: center;
+                position: relative;
+            }
+
+            label {
+                color: azure;
+            }
+
+
+            #login-form-container {
+                flex: 1;
+                padding: 20px;
+                border-radius: 20px;
+                z-index: 1;
+            }
+
+            #login-box, #password-box {
+                border-radius: 40px;
+                width: min-content;
+            }    
+
+            #login-form-submit {
+                margin: 2vh 75vw 0 2vw;
+                background-color: rgb(4, 48, 87);
+                border: none;
+                border-radius: 10px;
+                color: azure;
+                text-align: center;
+                font-size: 16px;
+                box-sizing: border-box;
+                width: 100px;
+                height: 50px;
+            }
+
+                #login-form-submit:hover {
+                    background-color: azure;
+                    color: rgb(4, 48, 87);
+            }
+
+            #logo-container {
+                margin-right: 0vw;
+                position: absolute;
+                top: 0;
+                right: 0;
+                z-index: 2;
+            }
+    
+                #Wayne-Enterprises-Logo {
+                    max-width: 300px;
+                }
+

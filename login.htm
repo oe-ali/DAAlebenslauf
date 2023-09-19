@@ -2,27 +2,50 @@
 <html lang="en">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    
     <head>
+        
         <link rel="stylesheet" href="loginstyles.css" />
         <title id="login-site" class="login-site">Login-Seite</title>
+    
     </head>
+    
+    
     <body>
-        <header><h1>Super-Lebensläufe</h1></header>
-        <h3 id="description">Bitte loggen Sie sich ein, um Zugang zum Erstellen Ihres Lebenslaufes zu landen.</h3>
-        <form id="login-form">
-        <fieldset>
-            <div class="login-email">
-             <label for="email" id="email-label">E-Mail-Adresse:</label><br />
-             <input id="email" type="email" class="login" name="email" placeholder="Bitte Ihre E-Mail eingeben."></input><br />
-             </div>
-             <div class="login-password">
-                <label for="password" id="password-label">Kennwort:</label><br />
-                <input id="password" type="password" class="login" name="password" placeholder="Geben Sie hier Ihr Passwort ein."></input>
-             </div>
-             <div class="login-submit">
-                <input id="submitButton" type="submit" value="Submit"></input><br />
-             </div>    
-            </fieldset>
-        </form>
+        
+        <header>
+            <h1>Super-Lebensläufe</h1>
+            <h3 id="description">Bitte loggen Sie sich ein, um Zugang zum Erstellen Ihres Lebenslaufes zu landen.</h3>
+        </header>
+        
+        
+        <main id="main-screen">
+             
+            <h2 id="login-window">Login</h2>
+
+                    
+                <form class="login-form">
+                        
+                    <div id="login-field">
+                            
+                        <div id="login-form-container">        
+                            <label for="Benutzername" id="nutz">Benutzername:</label><br>
+                            <input type="text" name="Benutzername" id="login-box" placeholder="Benutzernamen eingeben..."><br>    
+                            <label for="Kennwort" id="pass">Kennwort:</label><br>
+                            <input type="password" name="Kennwort" id="password-box" placeholder="Passwort eingeben..."><br>     
+                            <input type="submit" value="Login" id="login-form-submit"><a href="lebenslauf-muster.htm"></a>
+                        </div>
+                            
+                        <div id="logo-container">    
+                            <img src="https://static.wikia.nocookie.net/batman/images/9/9c/Wayne-Enterprises-Logo.png/revision/latest?cb=20140517155758&path-prefix=de" id="Wayne-Enterprises-Logo">
+                        </div>    
+                        
+                    </div><br>  
+
+                </form>    
+        
+        </main>
+    
     </body>
+
 </html>
